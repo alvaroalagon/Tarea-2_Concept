@@ -149,7 +149,7 @@ namespace core_concept {
         return acumulador;
     }
 
-    // SECCION 3: Variadic templates y fold expressions
+    // SECCION C: Variadic templates y fold expressions
 
     // Para el algoritmo sum
     template <Addable Tipo, Addable... Resto>
