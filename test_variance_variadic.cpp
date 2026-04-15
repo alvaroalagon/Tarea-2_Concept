@@ -18,7 +18,7 @@ int main() {
     // Caso 3: variance_variadic con tipos mezclados (int y double)
     // auto falla = core_concept::variance_variadic(1, 2.0, 3.0, 4.0);
 
-    // FALLA: requires (same_as<int, double> && ...) es false.
+    // El error se da ya que el requires (same_as<int, double> && ...) es false.
     // Todos los argumentos deben ser exactamente del mismo tipo.
 
     std::cout << "Caso invalido comentado. Descomenta para ver el error de compilacion.\n";

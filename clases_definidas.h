@@ -1,3 +1,6 @@
+#ifndef UNTITLED_CLASES_DEFINIDAS_H
+#define UNTITLED_CLASES_DEFINIDAS_H
+
 #pragma once
 #include <iostream>
 #include <cmath>
@@ -117,3 +120,5 @@ public:
         return flujo;
     }
 };
+
+#endif //UNTITLED_CLASES_DEFINIDAS_H

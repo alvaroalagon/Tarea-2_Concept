@@ -1,3 +1,6 @@
+#ifndef UNTITLED_CONCEPTS_ALGORITMOS_H
+#define UNTITLED_CONCEPTS_ALGORITMOS_H
+
 #pragma once
 #include <concepts>
 #include <iterator>
@@ -203,3 +206,4 @@ namespace core_concept {
         return maximo_actual;
     }
 }
+#endif //UNTITLED_CONCEPTS_ALGORITMOS_H
