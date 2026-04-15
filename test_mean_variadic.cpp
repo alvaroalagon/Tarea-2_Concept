@@ -17,8 +17,8 @@ int main() {
     // Caso 3: mean_variadic con Texto
     // auto falla = core_numeric::mean_variadic(Texto("hola"), Texto("mundo"));
 
-    // FALLA: Numeric<Texto> no se cumple.
-    // Texto no tiene operator/(size_t) ni operator<, Divisible y Comparable fallan.
+    // El error se da porque Numeric<Texto> no se cumple.
+    // La clase Texto no tiene operator/(size_t) ni operator<, Divisible y Comparable fallan.
 
     std::cout << "Caso invalido comentado. Descomenta para ver el error de compilacion.\n";
 
